@@ -224,3 +224,78 @@ section.hero{
   line-height: 24px;
   color: rgba(224, 44, 109, 0.87);
 }
+
+/* Products Collection Sections End */
+
+/* Feature Style here */
+
+
+.feature {
+  padding: 100px 0;
+}
+.feature-column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.feature-left-col {
+  width: 45%;
+}
+.feature-left-col img {
+  width: 404px;
+}
+.feature-right-col {
+  width: 55%;
+}
+.feature-title {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 60px;
+  color: #0a0826;
+}
+.feature-para {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6c6c6c;
+  margin: 16px 0;
+}
+
+
+/* End feature style */
+
+
+/* Footer Section  */
+
+footer {
+  background-color: #000000;
+  padding: 50px 0;
+}
+.footer-item {
+  text-align: center;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+}
+.copyright {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #d9dbe1;
+}
+.footer-icons {
+  margin-top: 17px;
+}
+.footer-icons i {
+  color: #fff;
+  font-size: 17px;
+  background: #6e57578f;
+  padding: 8px;
+  border-radius: 50px;
+  margin-left: 16px;
+}
+
+/* End footer Sections */
