@@ -37,17 +37,17 @@ img{
   border: none;
   outline: none;
 }
-.primary-btn{
+.primary-btn a{
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
 }
 
-/* Hearder Section  */
+/* Header Section  */
 
 header{
-  padding-left: 30px;
+  padding-top: 30px;
   height: 80px;
 }
 nav{
@@ -60,7 +60,7 @@ nav{
 .logo a {
   font-weight: 700;
   font-size: 24px;
-  line-height: 80px;
+  line-height: 36px;
   color: #3a3a3a;
 
 }
@@ -98,7 +98,7 @@ section.hero{
   justify-content: space-between;
 }
 .hero-left-col .hero-right-col{
-  width: 50%;
+  width: 100%;
 }
 .hero-right-col{
   background-image: url("/images/Circle-design.svg");
@@ -106,3 +106,52 @@ section.hero{
   background-position: center;
   text-align: center;
 }
+.hero-right-col img{
+  object-fit:none;
+}
+.section-title{
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 70px;
+  color: #3a3a3a;
+}
+.section-discrption{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3a3a3a;
+  margin: 16px 0;
+}
+
+/* Hero Section End  */
+ 
+/* Companies Section Start  */
+
+.Client{
+  padding: 70px 0px;
+
+}
+.companies{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  align-items: center;
+  grid-gap: 60px;
+  padding: 34px 62px;
+  border: 1px solid;
+  border-image:linear-gradients(to right, 
+  #c0ccda 10%
+  #c0ccda 25%
+  #c0ccda 60%
+  #c0ccda 10%
+  #c0ccda 75%
+  #c0ccda 75%
+  );
+  border-left: none;
+  border-right: none;
+}
+
+/* End Companies Sections */
+
+
+/* Products Collection Sections  */
+
