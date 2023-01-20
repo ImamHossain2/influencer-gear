@@ -5,3 +5,104 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
+}
+
+/* Basic Design */
+
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.primary-btn {
+  background: #e02c6d;
+  border-radius: 40px;
+  padding: 10px 24px;
+  border: none;
+  outline: none;
+}
+.primary-btn{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+/* Hearder Section  */
+
+header{
+  padding-left: 30px;
+  height: 80px;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  position: relative;
+}
+.logo a {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 80px;
+  color: #3a3a3a;
+
+}
+.menu-btn{
+  display: none;
+  color:#1b1b1b;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  background: none;
+  position: absolute;
+}
+.nav-menu .nav-bar{
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+
+.nav-bar li a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3a3a3a;
+}
+
+/* End Header Section  */
+
+/* Hero Section Start */
+section.hero{
+  margin-top: 50px;
+}
+.hero-col{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-left-col .hero-right-col{
+  width: 50%;
+}
+.hero-right-col{
+  background-image: url("/images/Circle-design.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
